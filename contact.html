@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Corentin Joseph</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="contact-page">
+    <header class="site-header">
+      <nav class="top-nav" aria-label="Navigation principale">
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="brand-mark" href="index.html" aria-label="Accueil">
+          <span class="brand-mark__circle" aria-hidden="true"></span>
+          <span class="brand-mark__block" aria-hidden="true"></span>
+        </a>
+        <a class="nav-link" href="index.html#projets">Projets</a>
+        <a class="nav-link" href="index.html#experiences">Expériences</a>
+        <a class="nav-link nav-link--filled" href="index.html#technologies">Technologies</a>
+        <a class="nav-link nav-link--filled" href="index.html#competences">Compétences</a>
+      </nav>
+      <div class="header-bar" aria-hidden="true"></div>
+    </header>
+
+    <main class="contact-main">
+      <a class="back-link" href="index.html" aria-label="Retour à l'accueil">
+        <span aria-hidden="true">↩</span>
+        Retour à l'accueil
+      </a>
+
+      <section class="contact-layout" aria-labelledby="contact-title">
+        <div class="contact-copy">
+          <h1 id="contact-title" class="section-title section-title--large">
+            Contact
+          </h1>
+          <div class="contact-message">
+            <p>Envie de discuter, parler d'un</p>
+            <p>projet, me poser une question&nbsp;?</p>
+          </div>
+          <p class="contact-help">
+            Remplissez le formulaire de contact, je vous répondrai
+            <br />
+            au plus vite.
+          </p>
+          <p class="contact-linkedin">
+            Vous pouvez aussi me contacter via
+            <a href="https://www.linkedin.com/in/corentin-joseph-b76101333/" target="_blank" rel="noopener noreferrer">linkedin <span aria-hidden="true">in</span></a>
+          </p>
+        </div>
+
+        <form class="contact-form" data-contact-form>
+          <div class="contact-field contact-field--half">
+            <label for="contact-lastname">Nom</label>
+            <input id="contact-lastname" name="lastname" type="text" autocomplete="family-name" required />
+          </div>
+
+          <div class="contact-field contact-field--half">
+            <label for="contact-firstname">Prénom</label>
+            <input id="contact-firstname" name="firstname" type="text" autocomplete="given-name" required />
+          </div>
+
+          <div class="contact-field">
+            <label for="contact-email">Adresse mail</label>
+            <input id="contact-email" name="email" type="email" autocomplete="email" required />
+          </div>
+
+          <div class="contact-field">
+            <label for="contact-subject">Sujet</label>
+            <input id="contact-subject" name="subject" type="text" required />
+          </div>
+
+          <div class="contact-field">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" required></textarea>
+          </div>
+
+          <button class="contact-submit" type="submit">Envoyer</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <h2>Me contacter</h2>
+          <a href="https://www.linkedin.com/in/corentin-joseph-b76101333/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="contact.html">Formulaire de contact</a>
+        </div>
+
+        <a class="cv-link" href="../Data/CV.pdf" download>Télécharger mon CV</a>
+
+        <div>
+          <h2>A propos de moi</h2>
+          <a href="profil.html">Mon profil</a>
+          <a href="https://github.com/oZaykoo" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+      <p class="signature">Made by myself with <span aria-hidden="true">❤</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

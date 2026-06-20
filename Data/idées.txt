@@ -1,0 +1,3 @@
+beaucoup d'animation d'objets lorsqu'on hover.
+hover ma photo la rend plus grande et la fait remonter => cliquer dessus renvoie sur la page profil
+mon nom prénom en bandeau défile en boucle lentement
